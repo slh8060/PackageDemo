@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<input type="button" class="btn btn-primary glyphicon glyphicon-ok test" value="提交"/>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/package.js"></script>
+<script>
+    $(function () {
+        $('.test').on('click', function () {
+            package.openModal();
+            /*$(document).openModal({
+            });*/
+        })
+
+    })
+</script>
+</body>
+</html>
